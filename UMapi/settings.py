@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6l%z!42v_#trm7q_sd_fi1z(reczr7fz*c3q^wobopx6$wb5b-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'UMapi',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': 'root123',
         'HOST': 'localhost',  
         'PORT': '3306',
     }
